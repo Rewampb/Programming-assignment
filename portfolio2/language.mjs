@@ -1,0 +1,50 @@
+const DICTIONARY = {
+    en: {
+        PLAY_AGAIN_QUESTION: "Play again (YES/no)? ",
+        CONFIRM: "y",
+        MENU_TITLE: "MENU",
+        MENU_PLAY_GAME: "1. Play Game",
+        MENU_PVP: "2. Player vs Player (PvP)",
+        MENU_PVC: "3. Player vs Computer (PvC)",
+        MENU_SHOW_SETTINGS: "4. Settings",
+        MENU_EXIT_GAME: "5. Exit Game",
+        PLAYER_TURN: "Player {player}, it is your turn.",
+        GAME_OVER: "GAME OVER",
+        GAME_DRAW: "The game is a draw.",
+        WINNER: "Winner is player {player}.",
+        PLACE_MARK: "Place your mark at: (row col), use 1 2 3 for positions",
+        SETTINGS: "Settings",
+        LANGUAGE: "Choose language:",
+        LANGUAGE_ENGLISH: "1. English",
+        LANGUAGE_NORWEGIAN: "2. Norwegian",
+        LANGUAGE_CONFIRM: "Language changed to {language}.",
+        GAME_MODE: "Choose game mode:",
+        PLAYER_1_DESC: "Player {player} (X), it is your turn.",
+        PLAYER_2_DESC: "Player {player} (O), it is your turn."
+    },
+    no: {
+        PLAY_AGAIN_QUESTION: "Spille en gang til (Ja/nei)? ",
+        CONFIRM: "j",
+        MENU_TITLE: "MENY",
+        MENU_PLAY_GAME: "1. Spill",
+        MENU_PVP: "2. Spill mot spiller (PvP)",
+        MENU_PVC: "3. Spill mot datamaskin (PvC)",
+        MENU_SHOW_SETTINGS: "4. Innstillinger",
+        MENU_EXIT_GAME: "5. Avslutt spillet",
+        PLAYER_TURN: "Spiller {player}, det er din tur.",
+        GAME_OVER: "SPILLET ER OVER",
+        GAME_DRAW: "Spillet er uavgjort.",
+        WINNER: "Vinneren er spiller {player}.",
+        PLACE_MARK: "Plasser markeringen din på: (rad kolonne), bruk 1 2 3 for posisjoner",
+        SETTINGS: "Innstillinger",
+        LANGUAGE: "Velg språk:",
+        LANGUAGE_ENGLISH: "1. Engelsk",
+        LANGUAGE_NORWEGIAN: "2. Norsk",
+        LANGUAGE_CONFIRM: "Språket ble endret til {language}.",
+        GAME_MODE: "Velg spillmodus:",
+        PLAYER_1_DESC: "Spiller {player} (X), det er din tur.",
+        PLAYER_2_DESC: "Spiller {player} (O), det er din tur."
+    }
+};
+
+export default DICTIONARY;
