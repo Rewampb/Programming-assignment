@@ -1,0 +1,3 @@
+start: maps/start.map
+aSharpPlace: maps/aSharpPlace.map
+anotherMaze: maps/anotherMaze.map
